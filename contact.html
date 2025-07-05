@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Yash Rathore</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+
+<body>
+    <div class="background-gradient"></div>
+    <div class="bubbles"></div>
+    
+    <header>
+        <div class="site-header-flex">
+            <a href="index.html" class="back-link">
+                <i class="fas fa-arrow-left"></i>
+                <span>Back to Portfolio</span>
+            </a>
+            <img src="profile.webp" alt="Yash Rathore" class="site-avatar" />
+            <h1 class="site-title">Contact Me</h1>
+        </div>
+    </header>
+    
+    <main>
+        <section class="glass-section contact-section">
+            <div class="glass-card contact-card" tabindex="0">
+                <h2>Let's Connect!</h2>
+                <p class="contact-intro">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Get in Touch!</h3>
+                        <div class="contact-methods">
+                            <a href="mailto:yrabc123@gmail.com" class="contact-method">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h4>Email</h4>
+                                    <span>yrabc123@gmail.com</span>
+                                </div>
+                            </a>
+                            <div class="contact-method disabled">
+                                <i class="fab fa-linkedin"></i>
+                                <div>
+                                    <h4>LinkedIn</h4>
+                                    <span>Currently Unavailable (Pesky hackers)</span>
+                                </div>
+                            </div>
+                            <a href="https://github.com/YashRE42" target="_blank" class="contact-method">
+                                <i class="fab fa-github"></i>
+                                <div>
+                                    <h4>GitHub</h4>
+                                    <span>github.com/YashRE42</span>
+                                </div>
+                            </a>
+                            <a href="https://www.instagram.com/re_of_2020" target="_blank" class="contact-method">
+                                <i class="fab fa-instagram"></i>
+                                <div>
+                                    <h4>Instagram</h4>
+                                    <span>@re_of_2020</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-container">
+                        <h3>Leave a Message, I'll get back to you!</h3>
+                        <form class="contact-form" id="contact-form" action="https://formspree.io/f/mwpbzbqq" method="POST">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">
+                                <i class="fas fa-paper-plane"></i>
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="main.js"></script>
+    <script src="contact.js"></script>
+</body>
+
+</html> 

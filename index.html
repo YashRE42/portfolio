@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Glassmorphism Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="background-gradient"></div>
+    <div class="bubbles"></div>
+    <header>
+        <div class="site-header-flex">
+            <img src="profile.webp" alt="Yash Rathore" class="site-avatar" />
+            <h1 class="site-title">Yash Rathore</h1>
+        </div>
+    </header>
+    <main>
+        <section class="glass-section about-section">
+            <div class="glass-card" tabindex="0">
+                <h2>About Me</h2>
+                <div class="about-description">
+                    Web developer with a strong focus on performance, user experience, and clean architecture — from shipping reliable features to debugging the rendering pipeline for that last millisecond of speed.
+                </div>
+                <div class="about-content-container">
+                    <div class="about-text" id="about-text">Creative developer with a passion for beautiful, interactive web experiences.</div>
+                    <span class="timeline-indicator">(Click or drag the yellow dot to explore the timeline)</span>
+                    <div class="timeline-container">
+                        <div class="timeline">
+                            <div class="timeline-dot" id="timeline-dot"></div>
+                            <!-- Timeline ticks will be generated dynamically -->
+                        </div>
+                    </div>
+                    <div id="timeline-year-label"></div>
+                </div>
+            </div>
+        </section>
+        <section class="glass-section bottom-sections">
+            <a href="projects.html" class="glass-card" tabindex="0" style="cursor: pointer; text-decoration: none; display: block;">
+                <h2>Projects</h2>
+                <p>Explore my latest work in web, UI, and creative coding.</p>
+            </a>
+            <a href="contact.html" class="glass-card" tabindex="0" style="cursor: pointer; text-decoration: none; display: block;">
+                <h2>Contact</h2>
+                <p>Let's connect! I'm open to collaborations and new opportunities.</p>
+            </a>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>

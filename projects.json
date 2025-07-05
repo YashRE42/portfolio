@@ -1,0 +1,137 @@
+[
+  {
+    "id": "zulip",
+    "title": "Contributions to Zulip Chat",
+    "icon": "fab fa-github",
+    "tags": ["Open Source", "Python"],
+    "description": "I've contributed to Zulip Chat, a modern open-source team chat app, by adding new features and fixing bugs. I've also worked on improving the app's performance.\n\nI've created 133 PRs and have reviewed other contributors' PRs several times. I've also logged dozens of issues and have worked on them with the team. 123 of the PRs I've worked on have been merged or closed, with 68 being cleanly merged.",
+    "extendedDescription": "I've contributed to Zulip Chat, a modern open-source team chat app, by adding new features and fixing bugs. I've also worked on improving the app's performance.\n\nI've created 133 PRs and have reviewed other contributors' PRs several times. I've also logged dozens of issues and have worked on them with the team. 123 of the PRs I've worked on have achieved resolution, with 68 being cleanly merged.\n\nMy contributions span across various areas including:\n• Frontend improvements and bug fixes\n• Brand new design implementations\n• Documentation updates\n• Performance optimizations\n• User experience improvements\n• New features and improvements.",
+    "link": "project-zulip.html",
+    "additionalContent": {
+      "type": "list",
+      "title": "Bellow are some significant PRs I've worked on:",
+      "items": [
+        {
+          "text": "frontend performance: Recent topics to stream renarrows",
+          "link": "https://github.com/zulip/zulip/pull/20255",
+          "status": "merged"
+        },
+        {
+          "text": "frontend performance: stream to recent topics renarrows",
+          "link": "https://github.com/zulip/zulip/pull/20161",
+          "status": "merged"
+        },
+        {
+          "text": "tools: Run node_tests with coverage in parallel through node.js",
+          "link": "https://github.com/zulip/zulip/pull/20280",
+          "status": "open"
+        },
+        {
+          "text": "Buddy list: Add two section layout.",
+          "link": "https://github.com/zulip/zulip/pull/20072",
+          "status": "closed"
+        },
+        {
+          "text": "Add new navbar with JS logic",
+          "link": "https://github.com/zulip/zulip/pull/11894",
+          "status": "closed"
+        },
+        {
+          "text": "Custom favicon",
+          "link": "https://github.com/zulip/zulip/pull/12549",
+          "status": "closed"
+        },
+        {
+          "text": "Use realm logo as browser favicon",
+          "link": "https://github.com/zulip/zulip/pull/20088",
+          "status": "open"
+        }
+      ]
+    },
+    "externalLinks": [
+      {
+        "text": "View All My Zulip PRs",
+        "link": "https://github.com/zulip/zulip/pulls?q=is%3Apr+author%3AYashRE42",
+        "target": "_blank"
+      }
+    ]
+  },
+  {
+    "id": "shopify",
+    "title": "Shopify Jewelry store",
+    "icon": "fab fa-shopify",
+    "tags": ["E-commerce", "Shopify"],
+    "description": "Collaborated with a client to enhance a Shopify-based jewellery store, focusing on delivering a seamless, high-converting e-commerce experience. My role combined feature development, performance tuning, and user experience refinement to elevate both frontend aesthetics and backend functionality.",
+    "extendedDescription": "Collaborated with a client to enhance a Shopify-based jewellery store, focusing on delivering a seamless, high-converting e-commerce experience. My role combined feature development, performance tuning, and user experience refinement to elevate both frontend aesthetics and backend functionality.\n\nKey Contributions include:\n• Customised a responsive, brand-aligned Shopify theme from scratch with self-made features.\n• Optimised the site for mobile responsiveness to ensure a smooth experience across all devices\n• Implemented performance enhancements for significantly faster load times\n• Identified and resolved bugs to ensure smooth user experience.",
+    "link": "project-shopify.html",
+    "externalLinks": [
+      {
+        "text": "Store temporarily offline",
+        "link": "",
+        "target": ""
+      }
+    ]
+  },
+  {
+    "id": "fitness-planner",
+    "title": "Fitness Planner v1 and v2",
+    "icon": "fas fa-code",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "description": "Designed and developed a responsive fitness calendar web application to help users plan, track, and reflect on their fitness journey with ease. Built entirely using HTML, CSS, and JavaScript, the app features a clean, intuitive interface that works seamlessly across both desktop and mobile devices.",
+    "extendedDescription": "Designed and developed a responsive fitness calendar web application to help users plan, track, and reflect on their fitness journey with ease. Built entirely using HTML, CSS, and JavaScript, the app features a clean, intuitive interface that works seamlessly across both desktop and mobile devices.\n\nVersion 1:\n• Allowed users to log which days they worked out via an interactive calendar.\n• Focused on simple activity tracking without customization—ideal for users who wanted a quick visual overview of their workout consistency.\n• Data stored locally to ensure privacy and persistence without user accounts.\n\nVersion 2 Enhancements:\n• Introduced customizable workout entries, allowing users to select and label specific exercises performed each day.\n• Added personalization options such as workout types and themes to enhance motivation and engagement.\n• Overhauled the UI for a more modern and energetic look.\n• Improved overall UX for smoother scheduling and progress review.",
+    "link": "project-fitness-planner.html",
+   "additionalContent": {
+  "type": "images",
+  "groups": [
+    {
+      "title": "Fitness Planner v1 Screenshots",
+      "images": [
+        { "src": "./fitness-v1-previous.png", "alt": "Fitness Planner v1 - Previous month" },
+        { "src": "./fitness-v1-current.png", "alt": "Fitness Planner v1 - Current month" }
+      ]
+    },
+    {
+      "title": "Fitness Planner v2 Screenshots",
+      "images": [
+        { "src": "./fitness-v2-1.png", "alt": "Fitness Planner v2 - Month view" },
+        { "src": "./fitness-v2-2.png", "alt": "Fitness Planner v2 - Daily modification" },
+        { "src": "./fitness-v2-3.png", "alt": "Fitness Planner v2 - Activity and Schedule Customization" }
+      ]
+    }
+  ]
+},
+    "externalLinks": [
+      {
+        "text": "View fitness planner v2",
+        "link": "https://yashre42.github.io/Fitness-planner-v2/",
+        "target": "_blank"
+      },
+      {
+        "text": "View fitness planner v1",
+        "link": "https:/yashre42.github.io/Fitness-planner",
+        "target": "_blank"
+      }
+    ]
+  },
+  {
+    "id": "koshari-landing",
+    "title": "Koshari Landing Page",
+    "icon": "fab fa-shopify",
+    "tags": ["Shopify", "Liquid", "CSS", "JavaScript"],
+    "description": "I created a beautiful Shopify landing page for Koshari, showcasing this popular Egyptian dish with modern design and smooth animations.",
+    "extendedDescription": "I designed and developed a stunning Shopify landing page for Koshari, a beloved Egyptian street food dish. Built using Shopify's Liquid templating language, the page features a modern, responsive design that highlights the dish's unique ingredients and cultural significance.\n\nThe landing page includes:\n- Eye-catching hero section with high-quality food photography\n- Interactive ingredient showcase with hover effects\n- Smooth scrolling animations and transitions\n- Mobile-responsive design for all devices\n- Fast loading times and optimized performance\n- Shopify-specific features and integrations\n\nThe design emphasizes the authentic flavors and rich history of Koshari while maintaining a contemporary, professional appearance that appeals to both food enthusiasts and potential customers.",
+    "link": "project-koshari.html",
+    "externalLinks": [
+      {
+        "text": "View Live Site",
+        "link": "https://koshari.myshopify.com",
+        "target": "_blank"
+      },
+      {
+        "text": "Password: koshari",
+        "link": "https://koshari.myshopify.com",
+        "target": "_blank"
+      }
+    ]
+  }
+] 
